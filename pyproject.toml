@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "linear-regression"
 version = "0.1.0"
-description = "a fastest module for solving linear regression problem"
+description = "a module for solving linear regression problem"
 authors = ["kevin-wijaya <tokevinwijaya@gmail.com>"]
 readme = "README.md"
 
