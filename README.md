@@ -75,7 +75,7 @@ Y_pred = regressor.predict(X_test)
 print(r2_score(Y_pred, Y_test)) # output: 0.9987232082831907
 ```
 
-## Comparison with `sklearn.linear_model.linearRegression` <a name="comparison"></a>
+## Comparison with `sklearn.linear_model.LinearRegression` <a name="comparison"></a>
 
 Helper Functions
 ```python
