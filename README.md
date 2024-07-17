@@ -16,14 +16,14 @@ This project requires Python ^3.10
 
 - Numpy
 
-## Installation
+## Installation (GitHub)
 
-Install from GitHub
+Install with pip
 ``` sh
 pip install git+https://github.com/kevin-wijaya/linear-regression.git
 ```
 
-Install from Poetry
+Install with Poetry
 ``` sh
 poe add git+https://github.com/kevin-wijaya/linear-regression.git
 ```
