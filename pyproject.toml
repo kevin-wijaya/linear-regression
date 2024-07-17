@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "linear-regression"
+version = "0.1.0"
+description = "a fastest module for solving linear regression problem"
+authors = ["kevin-wijaya <tokevinwijaya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
