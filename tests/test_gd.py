@@ -7,8 +7,8 @@ class TestGD(unittest.TestCase):
         X, Y, self.actual_beta = generator_datasets()
         
         split = int(len(Y)*0.80)
-        self.X_train, self.Y_train = X[0:split], Y[0:split]
-        self.X_test, self.Y_test = X[split:-1], Y[split:-1]
+        self.X_train, self.Y_train = X[:split], Y[:split]
+        self.X_test, self.Y_test = X[split:], Y[split:]
         
         self.model = GD()
         self.model.fit(self.X_train, self.Y_train)
