@@ -332,4 +332,5 @@ time exec: 'sklearn_model' took 0.5890 seconds
 ```
 
 Plot Result
+
 ![plot](https://github.com/kevin-wijaya/resources/raw/main/images/linear-regression/output.png)
